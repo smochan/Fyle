@@ -1,0 +1,165 @@
+h1 {
+  font-size: 2.8rem !important;
+}
+.heroImg {
+  width: 25%;
+}
+.paddingAll {
+  padding-left: 20vw;
+}
+.red {
+  color: #ff0000;
+}
+.w-40 {
+  width: 40% !important;
+}
+.w-45 {
+  width: 45% !important;
+}
+.services img {
+  max-width: 100% !important;
+}
+.services img:hover {
+  background-color: #f00 !important;
+}
+.hoverImg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  opacity: 0 !important;
+  transition: 1s ease;
+  border-radius: 1%;
+}
+.hoverImg a {
+  text-decoration: none !important;
+}
+.hoverImg:hover {
+  background-color: #f00 !important;
+  opacity: 1 !important;
+}
+.indicators {
+  margin-top: 37%;
+  position: relative !important;
+  display: flex !important;
+  justify-content: flex-start !important;
+  margin-left: 0 !important;
+}
+.indicators button {
+  width: 5px !important;
+  height: 5px !important;
+  border-radius: 50% !important;
+  background-color: black !important;
+  margin: 0 10px !important;
+}
+.indicators button.active {
+  background-color: #f00 !important;
+  position: relative;
+}
+.indicators button.active:before {
+  content: "";
+  border: 2px solid #f00;
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  display: block;
+  position: absolute;
+  top: -100%;
+  left: -100%;
+}
+.chooseUs:hover {
+  color: #f00;
+  cursor: pointer;
+}
+.chooseUs p {
+  color: #000;
+}
+.chooseUs:hover img {
+  filter: invert(18%) sepia(86%) saturate(6170%) hue-rotate(3deg)
+    brightness(100%) contrast(129%);
+}
+.ls-2 {
+  letter-spacing: 0.2rem;
+}
+.growths {
+  background-color: #fafafa;
+}
+.growth:hover {
+  background-color: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(120, 103, 103, 0.3);
+  cursor: pointer;
+}
+.whatWeDo {
+  background-color: #fafafa;
+}
+.project {
+  background-color: #fafafa;
+  cursor: pointer;
+}
+.w-15 {
+  width: 15% !important;
+}
+.feedback img {
+  position: absolute !important;
+  top: -5 !important;
+  left: 10vw;
+}
+.feedback p {
+  margin-left: 10vw;
+  z-index: 2;
+}
+.feedback span {
+  font-weight: bold !important;
+}
+.footer {
+  background-color: #f00;
+  opacity: 0.81;
+  height: 30vh;
+}
+.modale {
+  top: 0 !important;
+  z-index: 7;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(4px);
+}
+.centering {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+.modalBack {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 8;
+}
+.form {
+  z-index: 10;
+  border: 1px solid black;
+  padding: 2rem;
+  width: 40vw;
+  background: #fff;
+}
+.form input {
+  border: none;
+  border-bottom: solid 1px rgb(0, 0, 0);
+  outline: 0px !important;
+  border-radius: 0%;
+}
+.form input:focus {
+  outline: 0px !important;
+  box-shadow: none !important;
+  border-bottom: solid 1px rgba(37, 37, 37, 0.4) !important;
+}
+.carouselImg {
+  width: 100% !important;
+  object-fit: cover;
+  border-radius: 1%;
+}
+.cb:checked {
+  filter: invert(21%) sepia(100%) saturate(6500%) hue-rotate(3deg)
+    brightness(100%) contrast(150%);
+}
